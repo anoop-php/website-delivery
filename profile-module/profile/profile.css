@@ -1,0 +1,1489 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+h1,h2,h3,h4,h5,h6
+{
+	
+	font-family: 'Libre Baskerville', serif !important;
+}
+
+
+p,span,button,input,a,label,li
+{
+	
+	font-family: 'Inter', sans-serif;
+
+}
+
+
+body
+{
+	background:#ececec;
+}
+
+
+
+
+
+
+.update-btn, button.update-btn i
+{
+	
+	color:#1A1A1E !important;
+}
+
+
+
+.likes
+{
+	color: #828282 !important;
+
+	font-size: 13px;
+}
+
+
+
+.fa-microphone:hover,.fa-search:hover
+{
+	
+	color:#000;
+}
+
+.form-control:focus,input:focus-visible 
+{
+	
+	border: 2px solid #EE4266 !important;
+    box-shadow: unset;
+	background:#fff !important;
+}
+
+
+
+
+button.update-btn
+{
+	
+	border:1px solid #868686;
+		transition:0.4s;
+
+}
+
+
+
+.buttons button
+{
+	
+font-size: 13px;
+
+color:#000;
+border:2px solid #000;
+
+
+}
+
+
+.buttons button:hover
+{
+	background-color:#EE4266 !important;
+	color:#fff !important;
+	border-color:#EE4266 !important;
+	transition:0.4s;
+	
+}
+
+.update-btn:hover, .update-btn:hover i
+{
+	background-color:#000 !important;
+	color:#fff !important;
+	
+}
+
+
+
+.buttons span
+{
+	
+color: #1A1A1E;	
+}
+
+.buttons
+{
+	border-bottom: 2px solid #E0E0E0;
+
+}
+
+
+
+
+
+
+
+
+
+.tagwine-addphotos-section i
+{
+	
+	color:#B82325;
+	font-size: 22px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+
+
+
+
+.white-section-profile-img-width
+{
+	
+	width:50px;
+}
+
+
+section input[type="search"]
+
+{
+		
+		background-color:#fafafa;
+		height: 60px;
+
+}
+
+
+
+
+.post-section p
+{
+	
+	color:#1A1A1E;
+	font-weight:500;
+	font-size:15px;
+}
+
+
+
+
+
+.carousel-indicators 
+{
+	
+	bottom:10px;
+}
+
+
+.carousel-indicators [data-bs-target]
+{
+	
+	width: 10px;
+    height: 10px;
+	border-radius:50%;
+}
+
+
+.carousel-indicators [data-bs-target]
+{
+	
+	background-color:#D7D7D7;
+}
+
+.carousel-indicators .active
+{
+	
+	background-color:#B82325;
+	font-size:20px;
+}
+
+
+
+
+#more {display: none;}
+#more1 {display: none;}
+
+
+#myBtn,#myBtn1
+{
+
+color:#828282;
+font-weight:400;
+font-size:13px;
+
+}
+
+
+.post-section i
+{
+color:#B4C6D2;
+font-size:23px;
+
+}
+
+.post-reaction-section img
+{
+	
+	width:23px;
+}
+
+p
+{
+	
+	font-size:15px;
+}
+p.numbers-of-cheers,p.numbers-of-comments
+{
+	
+	color:#000000;
+	font-weight:500;
+}
+
+.middle-dot
+{
+		width: 7px;
+    height: 7px;
+	background: #D7D7D7;
+	
+}
+
+.post-time p
+{
+	
+	font-weight: 400;
+font-size: 14px;
+color: #828282;
+}
+
+.post
+{
+	padding-bottom:10px;
+	
+
+}
+
+
+.dropdown-item
+{
+	
+	color:#000;
+	font-size: 15px;
+}
+
+
+
+
+
+
+.dropdown-item.active, .dropdown-item:active {
+  
+    background-color: #fff;
+		color:#000;
+
+}
+
+.dropdown-menu i
+{
+	color:#000 !important;
+}
+
+
+.post:last-child
+{
+	padding-bottom:unset;
+
+}
+
+
+         .border-bottom {
+    border-bottom-color:  #D4D4D4
+!important;
+}
+
+
+
+.post-first-section i
+{
+	
+	color:#BDBDBD;
+}
+
+
+
+
+
+
+
+
+.edit-profile-box
+{
+	
+	bottom:-10.5em;
+	width: 60%;
+	left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.edit-profile-module-tabs a
+{
+	
+	color:#000000 !important;
+	 font-size: 18px;
+}
+
+.edit-profile-module-tabs i
+{
+	
+	color:#000000;
+	font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+.edit-profile-module-tabs .nav-pills .nav-link.active, .edit-profile-module-tabs .nav-link:focus, .nav-link:hover,
+
+.edit-profile-module-tabs .nav-link:focus
+{
+		border:unset;
+		color:#000000 ;
+		
+
+	
+}
+
+
+
+
+
+
+
+.hover-underline-animation
+{
+	
+	 position: relative;
+  color: #EE4266;
+  text-decoration: none;
+  	
+
+}
+
+
+
+
+.hover-underline-animation:hover {
+  color: #EE4266;
+  font-weight: bold;
+}
+
+.hover-underline-animation::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: #EE4266;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  margin-bottom:-2px;
+}
+
+.hover-underline-animation:hover::before {
+  transform: scaleX(1);
+}
+
+
+
+
+
+
+
+
+
+
+a:-webkit-any-link:focus-visible
+{
+	
+	    outline-offset: unset; 
+
+}
+
+
+:focus-visible {
+    outline: unset; 
+}
+
+
+.fa-angle-up {
+    color: #F64646 !important;
+}
+
+
+
+.edit-profile-posts-followers
+{
+	
+	font-size:14px;
+	font-weight:500;
+	color: #828282;
+}
+
+.edit-profile-box-btn
+{
+	
+	width: 60%;
+    background-color: #000;
+	font-size:15px;
+	font-weight:500;
+	transition:0.6s;
+}
+
+
+
+.edit-profile-box-btn:hover
+{
+	
+	background-color: #b82325 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.custom-top-margin
+{
+	
+	margin-top:6em;
+}
+
+.px-6
+{
+	
+	padding-right: 6rem;
+    padding-left: 5rem ;
+}
+
+
+
+
+
+
+
+.edit-profile-section-profile-img
+{
+	
+	top: -2%;
+left: 50%;
+transform: translate(-50%, -50%);
+    z-index: 1;
+    border: 3px solid #ffff;
+}
+
+
+
+.dropstart .dropdown-toggle::before
+{
+	display:none;
+}
+
+
+
+
+
+
+
+.page-main-heading
+{
+	
+		font-family: 'Inter', sans-serif !important;
+
+}
+
+
+
+
+.edit-profile-section
+{
+	
+	background-image:url(../assets/profile-module-img/profile-page-module-cover-img.png);
+	min-height:250px;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+
+
+/*media query start */
+
+
+@media(min-width:1400px)
+{
+	
+	.edit .profile-box {
+  top: 10em;
+}
+}
+
+
+@media(max-width:1199px)
+
+{
+	
+
+
+.edit .profile-name {
+  
+  font-size: 18px;
+}
+
+.edit .profile-box-btn, .follow-btn
+
+{
+	
+	font-size: 15px;
+}
+
+
+
+
+.edit .profile-name {
+  font-size: 16px;
+}
+
+
+
+.edit .profile-section-profile-img {
+  left: 51%;
+  
+  width: 90px;
+}
+
+.edit .profile-box {
+  top: 5em;
+}
+
+
+
+}
+
+
+
+@media(max-width:991px)
+{
+
+
+.px-6
+{
+	
+	padding-right: 1rem;
+    padding-left: 1rem ;
+}
+
+
+section input[type="search"] {
+ 
+  height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+section ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #9E9E9E;
+  opacity: 1; /* Firefox */
+  	font-size:12px;
+
+}
+
+section :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #9E9E9E;
+  	font-size:12px;
+
+}
+
+section ::-ms-input-placeholder { /* Microsoft Edge */
+  color: #9E9E9E;
+  	font-size:12px;
+
+}
+
+section input[type="search"] {
+  
+  padding-left: 5px;
+}
+
+
+
+
+.edit .profile-section-profile-img {
+  
+  left: 50%;
+ 
+}
+
+
+
+.edit .profile-box {
+  top: 7em;
+}
+
+.dropdown-item {
+  
+  font-size: 13px;
+}
+
+
+
+.edit-profile-box {
+ 
+  width: 100%;
+  
+}
+.edit-profile-module-tabs a
+{
+	font-size:14px;
+	padding:5px;
+}
+
+}
+
+
+@media(max-width:767px)
+{
+	
+	
+	  
+
+
+.edit .profile-box {
+  bottom: 6em;
+  top:unset
+}
+
+
+
+
+
+	
+	
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+@media(max-width:575px)
+{
+	
+	
+	
+	.custom-top-margin {
+  margin-top: 5em;
+}
+
+
+
+
+.edit .profile-box-btn, .follow-btn {
+  width: 35%;
+}
+
+
+
+
+
+
+}
+
+
+@media(max-width:511px)
+{
+	
+	.edit -profile-section-profile-img {
+  left: 51%;
+}
+}
+
+
+@media(max-width:433px)
+{
+	
+	.edit -profile-box {
+  bottom: 3em;
+  top: unset;
+}
+}
+
+
+ 
+
+
+
+       
+	
+	
+	
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:390px)
+{
+	
+	
+	
+
+
+.tagwine-addphotos-section .pe-2
+{
+	padding-right:unset !important
+	
+}
+
+
+
+.tagwine-addphotos-section .ps-2
+{
+		padding-left:unset !important
+
+	
+}
+
+
+
+
+
+.post-section p {
+  
+  font-size: 14px;
+}
+
+
+.edit -profile-box-btn {
+  width: 45%;
+}
+
+}
+
+
+
+@media(max-width:351px)
+{
+	
+	.edit -profile-box {
+  bottom: 1.6em;
+  
+}
+
+
+edit -profile-section-profile-img {
+  top: 1%;
+}
+
+
+
+
+
+
+}
+
+
+
+@media(max-width:339px)
+{
+	
+	.dropdown-menu.show
+	{
+	right: -15px !important;
+}
+
+
+p.numbers-of-cheers, p.numbers-of-comments {
+ 
+  font-size: 12px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+/*media query end */
+
+
+
+
+i.group-icon
+{
+	font-size:22px;
+}
+
+
+
+
+.sidebar a {
+ 
+  font-size: 16px;
+  color: #000;
+  display: block;
+  transition: 0.3s;
+}
+
+
+a.group-p, a.search-p, a.more-p
+{
+	font-size:19px !important;
+}
+
+
+
+
+.sidebar a:hover {
+  color: #b82325;
+}
+
+
+.hamburger-main-menu-img
+{
+	width:65px;
+}
+
+.hamburger-menu-black-btn
+{
+	background:#000;
+	transition:0.3s
+}
+
+.hamburger-menu-black-btn:hover
+{
+background:#b82325 !important
+
+}
+
+
+
+
+
+
+.dropdown-item {
+    
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+}
+
+
+
+
+
+
+
+dropdown-menu.show {
+    
+
+
+
+ transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+
+}
+/* Bottom sheet CSS start */
+
+@media(max-width:767px)
+{
+	
+	
+	
+	.dropdown-menu {
+    transform: translate(-3px, 70%) !important;
+}
+	
+	.dropdown-menu.show {
+    
+
+ position: fixed !important;
+        z-index: +9999 !important;
+        background-color: #fff !important;
+        width: 100% !important;
+        bottom: 0px !important;
+        left: 0 !important;
+        border-radius: 20px 20px 0 0 !important;
+width:100% !important;
+height: auto;
+
+ transition: all .2s ease-in-out !important;
+    -webkit-transition: all .2s ease-in-out !important;
+
+}
+
+}
+
+
+@media(max-width:575px)
+{
+	
+	.buttons button {
+    font-size: 12px;
+    border: 1px solid #000;
+}
+}
+
+
+@media(max-width:540px)
+{
+	
+	
+	
+	.dropdown-menu {
+}
+}
+
+
+@media(max-width:450px)
+{
+	
+	
+	
+	
+
+.edit-profile-posts-followers {
+    font-size: 12px;
+   
+}
+
+.post-section i {
+    
+    font-size: 19px;
+}
+
+}
+
+
+
+@media(max-width:400px)
+{
+	
+	
+	
+	
+
+
+.buttons button {
+    font-size: 11px;
+    border: 1px solid #000;
+}
+}
+
+
+/* Edit profile page CSS Start */
+
+
+.page-main-heading {
+    font-family: 'Inter', sans-serif !important;
+}
+
+
+.camera-icon {
+    background: #000;
+    color: #fff;
+    padding: 7px;
+    bottom: 0.3em;
+    right: 2.5em;
+    font-size: 17px;
+    border: 2px solid #fff;
+}
+
+
+.your-details {
+    color: #828282;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.details {
+    font-size: 20px;
+    color: #1A1A1E;
+	font-weight:500;
+}
+
+
+@media (max-width: 1199px)
+{
+.camera-icon {
+    right: 0;
+    bottom: 2em;
+}
+}
+
+
+@media (max-width: 991px)
+{
+.camera-icon {
+    right: 1em;
+    bottom: 1em;
+}
+
+.your-details {
+    font-size: 18px;
+}
+.details {
+    font-size: 20px;
+}
+}
+
+
+
+@media (max-width: 767px)
+{
+.details {
+    font-size: 18px;
+    word-wrap: anywhere;
+}
+
+
+
+}
+
+
+@media (max-width:575px)
+{
+
+
+.details {
+    font-size: 14px;
+  
+}
+}
+@media (max-width: 350px)
+{
+
+
+.camera-icon {
+	font-size: 15px;
+}
+}
+/* Edit profile page CSS End */
+
+
+
+
+
+
+
+/* Setting page css start */
+
+.settings i
+{
+	
+	color:#000000;
+	font-size: 25px;
+}
+.setting .your-details
+{
+	color:#828282;
+	font-size:20px;
+		font-family: 'Inter', sans-serif !important;
+
+}
+
+
+.setting .details
+{
+	font-size:18px;
+	color:#020202;
+	
+}
+
+
+
+
+
+.setting .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.setting .switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.setting .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: ;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+.setting .slider:after {
+  
+  background-color: #fff;
+}
+
+.setting .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #B82325;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.setting input:checked + .slider {
+  background-color: #fff;
+}
+
+.setting input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+.setting input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.setting .slider.round {
+  border-radius: 34px;
+  border: 1px solid #b3b3b3;
+}
+
+.setting .slider.round:before {
+  border-radius: 50%;
+}
+
+/* Setting page css end */
+
+
+/* Setting page media query start */
+
+
+
+
+  @media (max-width:991px)
+  {
+
+
+
+
+
+
+
+.setting .details
+{
+	font-size:20px;
+	
+}
+
+  }
+
+
+
+
+
+
+ @media (max-width:767px)
+  {
+
+
+
+
+
+
+
+.setting .details
+{
+	font-size:16px;
+	
+}
+
+  }
+
+
+
+
+@media(max-width:340px)
+{
+	
+	.setting .details
+{
+	font-size:14px;
+	
+}
+}
+ 
+
+/* Setting page media query end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* delete page css start */
+
+.delete-text-color
+{
+	
+	color:#000000;
+}
+
+
+.confirm, .cancel,.change-password-black-btn
+{
+	border:2px solid #000 !important;
+	width:35%;
+	transition:0.7s;
+	
+}
+
+
+
+
+
+.cancel,.change-password-black-btn
+{
+	background:#000;
+}
+
+
+.confirm:hover, .cancel:hover,.change-password-black-btn:hover
+{
+	
+	background-color: #b82325 !important;
+	color:#fff;
+	border-color:#b82325 !important;
+}
+
+
+
+@media(max-width:767px)
+{
+	.confirm, .cancel
+{
+	width:auto;
+	
+}
+
+h1
+{
+	
+	font-size:20px !important;
+}
+
+.settings i {
+    color: #000000;
+    font-size: 20px;
+}
+
+
+.setting .slider:before {
+    
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+	
+}
+
+.setting .switch {
+    
+    height: 30px;
+}
+}
+
+
+
+/* Setting page css end */
+
+
+/* Notification page css start */
+
+
+
+.notification p
+{
+	
+	color:#1A1F36;
+	font-size:16px;
+}
+
+
+.notification .fw-normal
+{
+
+font-weight:500 !important;	
+}
+
+
+.notification-accept-btn
+{
+	
+	background: #020202;
+	border-radius:4px;
+	transition:0.3s;
+			font-size:14px;
+
+}
+
+
+
+.notification-reject-btn
+{
+	color:#3C4257;
+	border-radius:4px;
+	border:1px solid #C4C4C4 !important;
+		transition:0.3s;
+		font-size:14px;
+
+}
+
+
+.notification-accept-btn:hover, .notification-reject-btn:hover
+{
+	background-color:#b82325 !important;
+	color:#fff;
+}
+
+
+p.notification-date-time
+
+{
+	
+	color:#A5ACB8;
+	font-size:14px;
+
+}
+
+
+.notification-page-border
+{
+	
+	border: 1px solid #E4E8EE;
+
+}
+
+
+p.notification-comment
+{
+	border-left:4px solid #DDDEE1;
+	padding-left:10px;
+	font-weight: 500;
+}
+
+
+
+
+@media(max-width:575px)
+{
+	.notification p {
+
+font-size:15px;
+	}
+}
+/* Notification page css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
