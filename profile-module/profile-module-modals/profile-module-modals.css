@@ -28,7 +28,7 @@
 }
 
 
-.remove-btn,.unblock-btn,.withdraw-btn {
+.remove-btn,.unblock-btn,.accept-withdraw-btn  {
     background-color: #E2E2E2;
     color: #000;
     font-size: 12px;
@@ -37,7 +37,7 @@
 }
 
 
-.unblock-btn,.withdraw-btn {
+.unblock-btn,.accept-withdraw-btn  {
 	
 	
 		border-width: 1px
@@ -55,7 +55,7 @@
 }
 
 
-.remove-btn:hover,.unblock-btn:hover,.withdraw-btn:hover {
+.remove-btn:hover,.unblock-btn:hover,.accept-withdraw-btn:hover {
     background-color: #000 !important;
     color: #fff;
 }
@@ -198,7 +198,7 @@ p.password-didnot-matched-text
 
 
 
-.remove-btn,.unblock-btn, .withdraw-btn {
+.remove-btn,.unblock-btn, .accept-withdraw-btn  {
  
   padding: 4px 13px;
 }

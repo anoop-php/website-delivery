@@ -1,0 +1,267 @@
+
+/*Search result CSS Start */
+
+.search-results .nav-link
+{
+	
+	
+	font-weight: 500;
+font-size: 18px;
+}
+
+
+.search-results .nav-link
+{
+	
+	color: #828282 !important;
+}
+
+
+.leave-btn,.modal-following-followers-text
+{
+	color: #828282
+ !important;
+	
+}
+
+.search-follow-btn,.join
+{
+	
+	color: #020202 !important;
+}
+
+.profile-name, .modal-text
+{
+	
+	color:#000;
+}
+
+.profile-name
+{
+	
+	font-size:16px;
+}
+
+.join-btn,.leave-btn,.follow-btn,.search-follow-btn
+{
+	
+	font-size:15px;
+	transition:0.3s;
+}
+
+
+.search-results-angle-right
+{
+	
+	color:#757575 ;
+	font-size: 20px ;
+}
+
+
+
+.join-btn:hover,.leave-btn:hover,.search-follow-btn:hover,.join:hover,.search-results-angle-right:hover
+{
+	
+color:#EE4266 !important;
+}
+
+
+.search-wines-img
+{
+	
+border: 1px solid #E8E8E8;
+background: #FCFCFC;
+height: 100px;
+    width: 90px;
+
+
+}
+
+
+
+.vintage-and-test-text p
+{
+	
+	color:#828282;
+	font-size:13px;
+}
+
+
+.modal-yes-btn
+{
+	
+	background: #979797;
+}
+
+.modal-cancel-btn
+{
+border: 1px solid #000;
+color: #FF0000;
+
+
+}
+
+
+.modal-yes-btn:hover,.modal-cancel-btn:hover
+{
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+
+
+.search-result-modal img
+{
+	
+	
+	border:4px solid #fff;
+	
+	top: -1.5em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+}
+
+
+.search-result-modal h4
+{
+	
+		font-family: 'Inter', sans-serif !important;
+		font-size:18px;
+		color:#000;
+
+}
+
+
+
+
+
+
+@media(max-width:767px)
+{
+	
+	.profile-name {
+    font-size: 15px;
+}
+
+.join-btn, .leave-btn, .search-follow-btn, .search-follow-btn {
+    font-size: 14px;
+    
+}
+
+.search-results .nav-link {
+   
+    font-size: 16px;
+}
+}
+
+@media(max-width:458px)
+{
+	
+	.search-wines-img {
+   
+    height: 90px;
+    width: 70px;
+}
+}
+
+
+@media(max-width:372px)
+{
+	
+	.search-wines-img {
+   
+    height: 75px;
+    width: 55px;
+}
+}
+
+
+/*Search result CSS End */
+
+
+
+
+/*Wine details CSS start*/
+
+.wine-details-bannner
+{
+	
+	background-image:url(../assets/search-module-img/search/wine-details-banner-img.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+	height:250px;
+	background-position:center;
+border-radius:  10px;	
+}
+
+
+.wine-details h5,.wine-details h3,.wine-details h4{
+    font-family: 'Inter', sans-serif !important;
+}
+
+
+.buy-wine
+{
+	
+	
+	border:1px solid #D3D3D3;
+}
+
+
+.wine-details .fa-wine-glass,.wine-details .love-it-text
+{
+	color:#B82325;
+	
+}
+
+.hands-text
+{
+	color:#828282;
+font-weight:500;
+font-size:16px;
+}
+
+.wine-details-h
+{
+	font-size:18px;
+}
+
+
+.buy-btn
+{
+	
+	color: #B82325;
+	border:2px solid #B82325;
+	background:#f8e9e9;
+}
+
+
+
+.wine-details-bannner-content
+{
+	
+	bottom: 0;
+    border-radius: 0px 0px 10px 10px;
+background-image:url(../assets/search-module-img/search/wine-details-banner-shadow-img.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+	height:109px;
+	padding-top:3em;
+	
+	}
+	
+	
+	@media(max-width:480px)
+	{
+		
+		.love-it-text
+		{
+			font-size:13px;
+		}
+		
+		.buy-section h4,.hands-text,.buy-btn
+		{
+			font-size:14px !important;
+		}
+	}
+/*Wine details CSS End */

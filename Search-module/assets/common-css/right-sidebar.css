@@ -1,0 +1,222 @@
+.digonal-cut-img
+{
+clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 50%);
+
+}
+
+
+.view-profile-box
+{
+	
+	top: 7em;
+}
+
+
+
+.view-profile-name
+{
+	font-weight:600;
+	font-size:18px;
+color:#000;
+
+}
+
+
+.view-profile-posts-followers
+{
+	
+	font-size:12px;
+	font-weight:500;
+	color: #828282;
+}
+
+.view-profile-box-btn,.follow-btn
+{
+	
+	width: 60%;
+    background-color: #000;
+	font-size:15px;
+	font-weight:500;
+	transition:0.6s;
+}
+
+
+
+.view-profile-box-btn:hover,.follow-btn:hover
+{
+	
+	background-color: #b82325 !important;
+}
+
+
+
+.who-to-follow-h4,.groups-to-follow-h4
+
+{
+	
+	font-family: 'Inter', sans-serif !important;
+	color:#000000;
+	font-weight:600;
+	font-size:18px;
+}
+
+.who-to-follow p,.groups-to-follow p
+{
+		font-size:15px;
+
+	font-weight:600;
+}
+
+
+
+.w-40
+{
+	width:40%;
+}
+
+
+
+.who-to-follow button, .groups-to-follow button
+{
+	width:30%;
+	
+}
+
+
+
+
+.view-profile-section-profile-img
+{
+	
+	top: -2%;
+left: 50%;
+transform: translate(-50%, -50%);
+    z-index: 1;
+    border: 3px solid #ffff;
+}
+
+
+
+@media(min-width:1400px)
+{
+	
+	.view-profile-box {
+  top: 10em;
+}
+}
+
+
+
+@media(max-width:1199px)
+
+{
+	
+
+
+.view-profile-name {
+  
+  font-size: 18px;
+}
+
+.view-profile-box-btn, .follow-btn
+
+{
+	
+	font-size: 15px;
+}
+
+
+
+
+.view-profile-name {
+  font-size: 16px;
+}
+
+
+
+.view-profile-section-profile-img {
+  left: 51%;
+  
+  width: 90px;
+}
+
+.view-profile-box {
+  top: 5em;
+}
+
+
+
+}
+
+
+
+
+@media(max-width:991px)
+{
+
+
+.view-profile-section-profile-img {
+  
+  left: 50%;
+ 
+}
+
+
+
+.view-profile-box {
+  top: 7em;
+}
+
+
+
+}
+
+
+
+
+@media(max-width:767px)
+{
+	
+	
+	  
+
+
+.view-profile-box {
+  bottom: 6em;
+  top:unset
+}
+
+}
+
+
+
+
+
+@media(max-width:575px)
+{
+	
+
+.view-profile-box-btn, .follow-btn {
+  width: 35%;
+}
+
+}
+
+
+
+@media(max-width:433px)
+{
+	
+	.view-profile-box {
+  bottom: 1em;
+  top: unset;
+}
+
+
+.view-profile-box-btn, .follow-btn {
+    width: 50%;
+}
+
+
+
+}
