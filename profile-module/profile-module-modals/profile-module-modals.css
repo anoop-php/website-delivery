@@ -1,0 +1,205 @@
+
+
+
+
+
+
+
+
+
+.nav-link,.nav-pills .nav-link.active
+{
+	
+	color:#000;
+	font-size:17px !important;
+	
+} 
+
+
+.followers-and-following-model-img-2 {
+    left: 1.4em;
+    top: 5px;
+}
+
+.modal
+{
+	--bs-modal-width: 600px;
+	
+}
+
+
+.remove-btn,.unblock-btn,.accept-withdraw-btn  {
+    background-color: #E2E2E2;
+    color: #000;
+    font-size: 12px;
+    transition: 0.6s;
+	padding: 6px 22px;
+}
+
+
+.unblock-btn,.accept-withdraw-btn  {
+	
+	
+		border-width: 1px
+
+}
+
+
+.modal .border-bottom
+{
+	border-width:2px !important;
+}
+
+.follow-request i {
+    color: #000;
+}
+
+
+.remove-btn:hover,.unblock-btn:hover,.accept-withdraw-btn:hover {
+    background-color: #000 !important;
+    color: #fff;
+}
+
+
+.secondary-text
+{
+	
+	color:#464646;
+
+}
+
+
+i.fa-angle-right
+{
+	color:#020202
+
+}
+
+
+.blocked-account input[type="search"] {
+    padding-left: 2em;
+    background-color: #F5F5F5;
+    height: 45px;
+}
+
+
+.blocked-account-search-icon {
+    left: 1em;
+    bottom: 1em;
+    color: #9E9E9E;
+    font-size: 13px;
+}
+
+.blocked-account-microphone-icon {
+    right: 1em;
+    color: #9E9E9E;
+    font-size: 13px;
+    bottom: 0.9em;
+}
+
+
+
+.change-password p
+{
+	
+	color:#828282;
+}
+
+p.password-didnot-matched-text
+{
+	
+	color:#D30000;
+	font-size:12px;
+}
+
+.change-password .form-control:focus, input:focus-visible
+{
+	
+	border:unset !important;
+	border-bottom:2px solid #EE4266 !important;
+}
+
+.change-password ::placeholder {
+  color: #868686;
+  opacity: 1; /* Firefox */
+  font-size:15px;
+}
+
+.change-password :-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #868686;
+   font-size:15px;
+
+}
+
+.change-password ::-ms-input-placeholder { /* Microsoft Edge */
+ color: #868686;
+   font-size:15px;
+
+}
+
+
+@media (max-width: 480px)
+{
+.followers-and-following-model-img-2 {
+    left: 10px;
+    top: 8px;
+}
+
+
+.modal
+{
+	--bs-modal-width: 100%;
+	
+}
+
+
+.followers-and-following-model-img-2 {
+  left: 13px;
+  top: 8px;
+  width: 40px;
+}
+
+
+.nav-link,.nav-pills .nav-link.active
+{
+	
+	
+	font-size:15px;
+	
+} 
+
+
+
+
+
+
+
+.modal p {
+   font-size: 14px !important;
+
+}
+
+
+
+
+
+.nav-link,.nav-pills .nav-link.active
+{
+	
+	
+	font-size:15px !important;
+	
+}
+
+
+
+
+
+
+
+
+.remove-btn,.unblock-btn, .accept-withdraw-btn  {
+ 
+  padding: 4px 13px;
+}
+}
